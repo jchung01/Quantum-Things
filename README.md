@@ -100,6 +100,12 @@ The goal of Quantum Things is to provide continued support for Random Things, su
 - Fixed Entity Detector having no clear difference between Weak and Strong power modes.
 - Fixed Spectre Leaves having their Decay flag set to true when placed.
 - Fixed the Summoning Pendulum being able to capture entities that are targeting you, but are not classified as monsters.
+- Fixed a crash when the Item Filter tried to compare to an empty item stack.
+- Fixed Spectre Energy Injectors accepting infinite energy when confronted with high energy inputs, causing them to eat the energy.
+
+## Developing
+
+The workspace and setup are inherited from Lumien231's Random Things repository. The workspace is completely and utterly fucked up and ancient, so builds may randomly fail for no discernible reason. Sometimes, when the build does succeed, when loading the game some textures will be missing. If this happens, just rebuild. If the workspace becomes broken in some way, run `unfuck_workspace.bat` to reset the workspace. This is also helpful when you first cloned the repository and you want to set up the workspace from scratch.
 
 ### Reporting Issues
 
